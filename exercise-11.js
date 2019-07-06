@@ -1,17 +1,17 @@
 function tentukanDeretAritmatika(arr) {
     // you can only write your code here!
-    var curentAritmatika = 0;
-    var prefAritmatika   = arr[1] - arr[0];
+    var curentArithmetic = 0;
+    var prefArithmetic   = arr[1] - arr[0];
     for(index = 1; index<arr.length - 1; index++){
-        curentAritmatika = arr[index + 1] - arr[index];
+        curentArithmetic = arr[index + 1] - arr[index];
         
-        if(curentAritmatika === prefAritmatika){
-            prefAritmatika = curentAritmatika; 
+        if(curentArithmetic === prefArithmetic){
+            prefArithmetic = curentArithmetic; 
         } else{
             return false;
         };
     };
-    return curentAritmatika === prefAritmatika;
+    return curentArithmetic === prefArithmetic;
   };
   
   // TEST CASES
