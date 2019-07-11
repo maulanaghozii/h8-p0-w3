@@ -1,6 +1,6 @@
 function balikString(str){
     arr = [];
-    for(index = 0; index < str.length; index++){
+    for(let index = 0; index < str.length; index++){
         arr = str[index] + arr;
     }
     return arr;
